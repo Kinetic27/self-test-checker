@@ -1,0 +1,17 @@
+{
+    "name": "self-test-checker",
+    "description": "gaia.cs.umass.edu의 셀프테스트 정답을 체크해줍니다",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": {
+            "16": "logo.png",
+            "32": "logo.png"
+        },
+        "default_title": "Foo"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "checker.js"
+    }
+}
